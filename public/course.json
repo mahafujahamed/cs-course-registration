@@ -1,75 +1,84 @@
 [
     {
       "id": 1,
-      "image": "https://example.com/product1.jpg",
-      "title": "Product 1",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget odio id elit fermentum mattis.",
-      "price": 19.99,
-      "credit": "Excellent"
+      "image": "https://i.ibb.co/Nskqk6h/Rectangle-2.png",
+      "title": "Introduction to OOP Python",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 19000,
+      "credit": "5"
     },
     {
       "id": 2,
-      "image": "https://example.com/product2.jpg",
-      "title": "Product 2",
-      "description": "Suspendisse potenti. In euismod libero at elit pellentesque, in fringilla lorem tincidunt.",
-      "price": 29.99,
-      "credit": "Good"
+      "image": "https://i.ibb.co/x1fcdYc/Rectangle-2-1.png",
+      "title": "Database (MySQL)",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 19000,
+      "credit": "5"
     },
     {
       "id": 3,
-      "image": "https://example.com/product3.jpg",
-      "title": "Product 3",
-      "description": "Proin nec feugiat nisl. Integer tincidunt mauris sit amet volutpat. Vestibulum facilisis arcu a est consectetur, a tincidunt metus egestas.",
-      "price": 24.99,
-      "credit": "Fair"
+      "image": "https://i.ibb.co/FhFPRHt/Rectangle-2-2.png",
+      "title": "Introduction to C Programming",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 15000,
+      "credit": "1"
     },
     {
       "id": 4,
-      "image": "https://example.com/product4.jpg",
-      "title": "Product 4",
-      "description": "Duis in aliquam lorem. Sed luctus dolor at arcu blandit, in posuere tellus bibendum. Sed suscipit justo eu augue malesuada, nec tincidunt justo vehicula.",
-      "price": 34.99,
-      "credit": "Poor"
+      "image": "https://i.ibb.co/BPcnLy3/Rectangle-2-3.png",
+      "title": "Introduction to Algorithms",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 26000,
+      "credit": "2"
     },
     {
       "id": 5,
-      "image": "https://example.com/product5.jpg",
-      "title": "Product 5",
-      "description": "Vivamus malesuada ipsum sit amet orci malesuada bibendum. Etiam nec lacinia justo, non tincidunt metus.",
-      "price": 14.99,
-      "credit": "Excellent"
+      "image": "https://i.ibb.co/swFZf4W/Rectangle-2-4.png",
+      "title": "Introduction to C++ for DSA",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 12000,
+      "credit": "10"
     },
     {
       "id": 6,
-      "image": "https://example.com/product6.jpg",
-      "title": "Product 6",
-      "description": "Phasellus et odio in libero tincidunt varius. Vestibulum ac quam eget purus vestibulum congue.",
-      "price": 39.99,
-      "credit": "Good"
+      "image": "https://i.ibb.co/P52Tcyk/Rectangle-2-5.png",
+      "title": "Software Engineering",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 18000,
+      "credit": "2"
     },
     {
       "id": 7,
-      "image": "https://example.com/product7.jpg",
-      "title": "Product 7",
-      "description": "Aenean venenatis tellus vel tortor cursus, in fringilla felis feugiat. Vivamus id nulla eget ligula vulputate ultricies.",
-      "price": 27.99,
-      "credit": "Fair"
+      "image": "https://i.ibb.co/QMpDfxG/Rectangle-2-6.png",
+      "title": "Problem-Solving Part",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 22000,
+      "credit": "3"
     },
     {
       "id": 8,
-      "image": "https://example.com/product8.jpg",
-      "title": "Product 8",
-      "description": "Pellentesque euismod felis id dui auctor, in lacinia purus laoreet. Sed euismod ullamcorper turpis, non dictum odio egestas nec.",
-      "price": 22.99,
-      "credit": "Poor"
+      "image": "https://i.ibb.co/z88zYQR/Rectangle-3.png",
+      "title": "Basic Data Structures",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 27000,
+      "credit": "4"
     },
     {
       "id": 9,
-      "image": "https://example.com/product9.jpg",
-      "title": "Product 9",
-      "description": "Nullam eu neque a arcu lacinia facilisis ac ac elit. Maecenas ac quam in dui iaculis suscipit.",
-      "price": 17.99,
-      "credit": "Excellent"
+      "image": "https://i.ibb.co/hVgrzmX/Rectangle-3-1.png",
+      "title": "AWS, Cloud Computing",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 27000,
+      "credit": "5"
     }
   ]
   
+
+ 
+
+
+
+
+
+
+
