@@ -1,9 +1,24 @@
 
 
-const CourseCard = () => {
+
+const CourseCard = ({ course }) => {
+
     return (
-        <div>
-            <h2>All Courses</h2>
+        <div className="py-5">
+            <div className="card card-compact p-5 w-72 shadow-xl">
+                <figure><img src={course.image} alt="Shoes" /></figure>
+                <div className="card-body">
+                    <h2 className="card-title font-bold pt-3">{course.title}</h2>
+                    <p className="pt-3">{course.description}</p>
+                    <div className="flex gap-16">
+                        <p>Price: {course.price}</p>
+                        <p>Credit: {course.credit}hr</p>
+                    </div>
+                    <div className="pt-4">
+                        <button className="bg-[#2F80ED]  text-white rounded-lg border w-64 h-10">Select</button>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
