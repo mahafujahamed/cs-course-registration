@@ -19,8 +19,13 @@ const CartHistory = ({ selectedCourses, totalCredit, totalPrice, remainingCredit
                 </ol>
             </div>
             <hr />
-            <p>Total Price: ${totalPrice} USD</p>
-            <p>Total Credit Hour: {totalCredit} credits</p>
+            <div className="p-3">
+                <p>Total Credit Hour: {totalCredit} credits</p>
+            </div>
+            <hr />
+            <div className="p-3">
+                <p>Total Price: ${totalPrice} USD</p>
+            </div>
 
         </div>
     );
