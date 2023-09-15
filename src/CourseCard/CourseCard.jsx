@@ -1,7 +1,11 @@
 
 
 
-const CourseCard = ({ course }) => {
+const CourseCard = ({ course, onSelect }) => {
+
+    const handleSelect = () => {
+        onSelect(course);
+    }
 
     return (
         <div className="py-5">
@@ -15,7 +19,7 @@ const CourseCard = ({ course }) => {
                         <p>Credit: {course.credit}hr</p>
                     </div>
                     <div className="pt-4">
-                        <button className="bg-[#2F80ED]  text-white rounded-lg border w-64 h-10">Select</button>
+                        <button onClick={handleSelect} className="bg-[#2F80ED]  text-white rounded-lg border w-64 h-10">Select</button>
                     </div>
                 </div>
             </div>

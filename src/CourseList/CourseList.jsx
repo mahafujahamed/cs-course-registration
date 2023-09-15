@@ -3,7 +3,7 @@ import { useState } from "react";
 import CourseCard from "../CourseCard/CourseCard";
 
 
-const CourseList = () => {
+const CourseList = ({onSelectCourse}) => {
     const [courses, setCourses] = useState([]);
 
     useEffect(() => {
@@ -15,7 +15,11 @@ const CourseList = () => {
     return (
         <div className="grid grid-cols-3">
             {
-                courses.map(course => <CourseCard key={course.id} course={course}></CourseCard>)
+                courses.map(course => <CourseCard
+                     key={course.id} 
+                     course={course}
+                     onSelect={onSelectCourse}
+                     ></CourseCard>)
             }
         </div>
     );

@@ -1,10 +1,27 @@
 
 
 
-const CartHistory = () => {
+const CartHistory = ({ selectedCourses, totalCredit, totalPrice, remainingCredit }) => {
     return (
-        <div>
-            <h1>name</h1>
+        <div className="shadow-lg p-5 w-72">
+            <div className="p-2">
+                <p className="text-[#2F80ED] text-lg">Credit Hour Remaining: {remainingCredit} hr</p>
+            </div>
+            <hr />
+            <div className="p-3">
+                <h1 className="font-bold text-lg">Course Name</h1>
+                <ol className="mt-3">
+                    {selectedCourses.map((course, index) => (
+                        <li key={index}>
+                            {course.title}
+                        </li>
+                    ))}
+                </ol>
+            </div>
+            <hr />
+            <p>Total Price: ${totalPrice} USD</p>
+            <p>Total Credit Hour: {totalCredit} credits</p>
+
         </div>
     );
 };
