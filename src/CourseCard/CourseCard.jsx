@@ -14,7 +14,7 @@ const CourseCard = ({ course, onSelect }) => {
                     <p className="pt-3">{course.description}</p>
                     <div className="flex gap-4 mt-2">
                         <img src={course.img2} alt="dollar" />
-                        <p> Price: {course.price}</p>
+                        <p>Price: {course.price}</p>
                         <img src={course.img1} alt="book" />
                         <p> Credit: {course.credit}hr</p>
                     </div>
